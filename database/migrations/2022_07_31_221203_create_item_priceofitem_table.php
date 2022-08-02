@@ -13,11 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('priceofitems', function (Blueprint $table) {
+        Schema::create('item_priceofitem', function (Blueprint $table) {
             $table->id();
-            $table->decimal('price', 8, 2);
-            $table->text('Note')->nullable();
-            $table->softDeletes();
+            $table->foreignId('item_id')->constrained();
+            $table->foreignId('priceofitem_id')->constrained();
             $table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('priceofitems');
+        Schema::dropIfExists('item_priceofitem');
     }
 };

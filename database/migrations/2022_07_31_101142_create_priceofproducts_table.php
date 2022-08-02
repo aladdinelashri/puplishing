@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('priceofproducts', function (Blueprint $table) {
             $table->id();
-            $table->decimal('amount', 8, 2);
+            $table->decimal('price', 8, 2);
             $table->text('Note')->nullable();
             $table->softDeletes();
             $table->timestamps();
