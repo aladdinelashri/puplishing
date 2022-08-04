@@ -35,7 +35,7 @@
             <!-- Page Content -->
             <main>
                 <x-sidenavbar1>
-                </x-sidenavbar1>
+                </x-sidenavbar1>  
                 {{ $slot }}
             </main>
         </div>

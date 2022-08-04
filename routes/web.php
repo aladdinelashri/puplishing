@@ -69,3 +69,7 @@ Route::get('/test2', function () {
     return view('test2');
 })->name('test2');
 
+Route::get('/test6', function () {
+    return view('test6');
+})->name('test6');
+

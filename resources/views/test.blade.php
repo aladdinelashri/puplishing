@@ -1,4 +1,5 @@
 <x-guest-layout>
-    <x-sidenavbar4>
-    </x-sidenavbar4>
+  
+    <x-sidenavbar3>
+    </x-sidenavbar3>
 </x-guest-layout>
