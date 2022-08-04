@@ -1,5 +1,5 @@
 <x-guest-layout>
-  
-    <x-sidenavbar3>
-    </x-sidenavbar3>
+
+    <x-sidenavbar1>
+    </x-sidenavbar1>
 </x-guest-layout>

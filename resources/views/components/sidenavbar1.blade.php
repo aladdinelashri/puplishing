@@ -1,5 +1,5 @@
 <div x-cloak x-data="sidebar()" class="relative flex items-start ">
-  <div class="fixed top-0 z-40 transition-all duration-300">
+  <div class="fixed top-20 z-40 transition-all duration-300">
     <div class="flex justify-end">
       <button @click="sidebarOpen = !sidebarOpen" :class="{'hover:bg-gray-300': !sidebarOpen, 'hover:bg-gray-700': sidebarOpen}" class="transition-all duration-300 w-8 p-1 mx-3 my-2 rounded-full focus:outline-none">
         <svg viewBox="0 0 20 20" class="w-6 h-6 fill-current" :class="{'text-gray-600': !sidebarOpen, 'text-gray-600': sidebarOpen}">

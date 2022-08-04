@@ -73,3 +73,15 @@ Route::get('/test6', function () {
     return view('test6');
 })->name('test6');
 
+Route::get('/test0', function () {
+    return view('test0');
+})->name('test0');
+
+Route::get('/test1', function () {
+    return view('test1');
+})->name('test1');
+
+Route::get('/test5', function () {
+    return view('test5');
+})->name('test5');
+
