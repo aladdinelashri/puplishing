@@ -15,9 +15,9 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
         .font-family-karla { font-family: karla; }
-        .bg-sidebar { background: #3d68ff; }
-        .cta-btn { color: #3d68ff; }
-        .upgrade-btn { background: #1947ee; }
+        .bg-sidebar { background: #d4d5d8; }
+        .cta-btn { color: #d4d5d8; }
+        .upgrade-btn { background: #d4d5d8; }
         .upgrade-btn:hover { background: #0038fd; }
         .active-nav-link { background: #1947ee; }
         .nav-item:hover { background: #1947ee; }
@@ -33,8 +33,8 @@
                 <i class="fas fa-plus mr-3"></i> New Report
             </button>
         </div>
-        <nav class="text-white text-base font-semibold pt-3">
-            <a href="index.html" class="flex items-center active-nav-link text-white py-4 pl-6 nav-item">
+        <nav class="text-white text-base font-semibold ">
+            <a href="index.html" class="flex items-center active-nav-link text-white  pl-6 nav-item">
                 <i class="fas fa-tachometer-alt mr-3"></i>
                 Dashboard
             </a>
@@ -135,8 +135,8 @@
         </header>
 
         <div class="w-full overflow-x-hidden border-t flex flex-col">
-            <main class="w-full flex-grow p-6">
-                <h1 class="text-3xl text-black pb-6">Dashboard</h1>
+            <main class="w-full flex-grow pl-6 pr-6">
+                <h1 class="text-3xl text-black pb-1">Dashboard</h1>
 
                 <div class="flex flex-wrap mt-6">
 
